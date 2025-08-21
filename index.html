@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOHN ASTER' WORKS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      background: linear-gradient(135deg, purple, black);
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px 0;
+      border: 3px solid white;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    section h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    /* Projects grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .project {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+    }
+    .project h3 {
+      margin-top: 10px;
+    }
+    video {
+      width: 100%;
+      border-radius: 8px;
+    }
+    /* Contact Section */
+    #contact {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 50px 20px;
+      margin-top: 40px;
+      border-top: 2px solid white;
+    }
+    #contact ul {
+      list-style: none;
+      padding: 0;
+    }
+    #contact ul li {
+      margin: 10px 0;
+    }
+    #contact a {
+      color: #c9a0ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    #contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JOHN ASTER</h1>
+    <p>Freelancer | Video Editor | Graphic Designer</p>
+    <!-- Replace profile.jpg with your image file -->
+    <img src="dp aster.png" alt="My Profile Picture" class="profile-pic">
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m an aspiring freelancer who turns simple ideas into scroll-stopping edits. From short-form videos to trailers and motion graphics, I create visuals that don’t just look good—they stick with you.</p>
+    <p>SOFTWARE I USE:</p>
+    <p>Capcut, Davinci Resolve, Canva</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+      <!-- Project 1 -->
+      <div class="project">
+        <video controls>
+          <source src="john.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Short Form edit</h3>
+        <p>Quick, engaging video cuts designed to capture attention and deliver impact within seconds.</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <video controls>
+          <source src="tata.mp4",type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Film Trailers Edit</h3>
+        <p>Compelling previews that build excitement and highlight the best moments of a story or project.</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project">
+        <video controls>
+          <source src="aster.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <h3>Motion Graphics Edit</h3>
+        <p>Creative animations and graphic elements that enhance storytelling and bring visuals to life..</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you'd like to work with me or see more of my works, feel free to reach out!</p>
+    <ul>
+      <li>Email: <a href="mailto:myemail@example.com">johnasterpanaligan2@gmail.com</a></li>
+      <li>Phone: 09956187380</li>
+      <li>Google Drive Link for other samples: <a href="https://drive.google.com/drive/folders/1CzScHCM4k53dq9GJ5KPtHb0ZcTIeGdoU?usp=sharing" target="_blank">View My GDrive Files</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/cup_of_johnap/profilecard/?igsh=cW9yaWJvc3ZwcDlk" target="_blank">See Instagram profile</a></li>
+    <li> Tiktok: <a href="https://www.tiktok.com/@ohhhhhhhhhhhhhh02?_t=ZS-8z3NDfnmUIC&_r=1" target="_blank">See Tiktok profile</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
